@@ -31,15 +31,17 @@
             </dict>
         </dict>
         <dict>
+        	<key>Arguments</key>
+        	<dict>
+				<key>CHECK_FILESIZE_ONLY</key>
+				<true/>
+                <key>url</key>
+				<string>%url%</string>
+				<key>filename</key>
+  				<string>%NAME%.tar.bz2</string>
+            </dict>
             <key>Processor</key>
             <string>URLDownloader</string>
-            <key>Arguments</key>
-            <dict>
-                <key>url</key>
-                <string>%url%</string>
-                <key>filename</key>
-                <string>%NAME%.tar.bz2</string>
-            </dict>
         </dict>
         <dict>
             <key>Processor</key>
